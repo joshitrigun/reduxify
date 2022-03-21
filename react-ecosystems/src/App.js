@@ -1,11 +1,13 @@
 import React from 'react'
+import { hot } from 'react-hot-loader';
+import TodoList from './todos/TodoList';
 import "./App.css";
 
 
 const App = () => {
   return (
-    <div>App Component</div>
+    <div><TodoList /></div>
   )
 }
 
-export default App
+export default hot(module)(App);

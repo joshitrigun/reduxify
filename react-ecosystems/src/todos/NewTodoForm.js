@@ -12,7 +12,7 @@ const NewTodoForm = () => {
         placeholder="Type your new todo here"
         onChange={(e) => setInputValue(e.target.value)}
       />
-      <button className='new-todo-button' type='button'></button>
+      <button className='new-todo-button' type='button'>Create Todo</button>
     </div>
   )
 }
